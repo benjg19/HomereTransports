@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Modal -->
+			    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			      <div class="modal-dialog" role="document">
+			        <div class="modal-content">
+			          <div class="modal-header">
+			          <h5 class="modal-title" id="exampleModalLabel">Contactez-nous</h5>
+			          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			          </button>
+			          </div>
+			          <div class="modal-body text-center">
+			          <a href="tel:+33102030405" class="h3 text-primary"><i class="fa fa-phone p-2" aria-hidden="true"></i>+33 (0)1 00 00 00 00 </a>
+							</br><span class="text-muted">ou</span></br>
+		            <a href="" class="h3 text-primary"><i class="fa fa-envelope p-2" aria-hidden="true"></i>Envoyez-nous un message</br> via le formulaire</a>
+			          </div>
+			          <div class="modal-footer">
+			          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+			          </div>
+			        </div>
+			      </div>
+			    </div>
+
+    <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
+
+      <a class="navbar-brand" href="#">
+        <img class="d-inline-block align-top" src="img/logoHomere Transports.png" width="230" alt="">
+      </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-start">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Déménagement</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Transport d'objet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Garde-meuble</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">À propos<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+            <a type="button" data-toggle="modal" data-target="#exampleModal" class="ml-4 mr-3 btn btn-primary" href="#" role="button">Demandez une estimation <i class="fa fa-phone text-white" aria-hidden="true"></i></a>
+        </div>
+      </nav>
+
+
+      <section class="container-fluid bg-apropos py-5">
+        <article class="container">
+          <div class="row justify-content-md-center">
+          <div class="jumbotron bg-transparency-blue text-light text-center col-md-8">
+            <h1 class="display-4 text-light">À propos</h1>
+            <p class="lead">
+                HomereTransports est une société de déménagement et de transport d’œuvre d'art, basée à Paris. Nous effectuons le transport de vos biens sur toute la France et à l'international.
+              </p>
+              <p class="lead">
+                Une entreprise de taille humaine, qui privilégie avec nos clients des rapports humains de confiance.
+              </p>
+              <p class="lead">
+                Notre personnel qualifié et expérimenté travail selon des principes simples, efficaces et ordonnés.
+              </p>
+            <hr class="my-4">
+            <p>Si vous avez des questions n'hésitez pas à nous contacter, nous nous ferons un plaisir de vous répondre.</p>
+            <p class="lead">
+              <a role="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-light btn-lg" href="#" role="button">contactez-nous</a>
+            </p>
+          </div>
+        </div>
+        </article>
+      </section>
+
+
+    <footer class="container-fluid p-md-5 text-muted bg-light border border-white mt-5">
+      <small>
+        <nav class="navbar navbar-expand-lg p-0 justify-content-start navbar-light mr-auto">
+          <ul class="navbar-nav mr-auto font-weight-bold">
+            <li><a class="nav-link pl-0" href="#">Mentions légales</a></li>
+            <li><a class="nav-link" href="#">Twitter</a></li>
+            <li><a class="nav-link" href="#">Examples</a></li>
+            <li><a class="nav-link" href="/docs/4.0/about/history/">About</a></li>
+          </ul>
+          <a class="mr-4" href="#"><i class="fa fa-2x fa-facebook-official text-primary" aria-hidden="true"></i></a>
+          <a class="page-scroller" href="#"><i class="fa fa-2x fa-angle-up text-primary" aria-hidden="true"></i></a>
+        </nav>
+
+        <p class="mb-0">&copy; <?php echo date('Y'); ?> <?php echo '<a href="'.home_url().'">'.get_bloginfo('name').'</a>'; ?>
+            <a href="https://twitter.com/mdo" target="_blank" rel="noopener">@mdo</a> and
+            <a href="https://twitter.com/fat" target="_blank" rel="noopener">@fat</a>. Maintained by the
+            <a href="https://github.com/orgs/twbs/people">core team</a> with the help of
+            <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
+        </small>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="bootstrap/assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap/assets/js/vendor/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/41eb6e371b.js"></script>
+  </body>
+</html>

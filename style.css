@@ -1,0 +1,157 @@
+:root {
+  --first-color: #0168BA;
+  --seconde-color: #0171C9;
+}
+
+h1, h2, h3, h4, h5, h6, i{color: var(--first-color) !important}
+.h1-2{font-size: 4rem}
+.text-primary{color: var(--first-color) !important}
+.btn-primary{background-color: var(--first-color);border-color: var(--first-color)}
+.btn-primary:hover, .btn-outline-primary:hover{background-color: var(--seconde-color)}
+.btn-outline-primary{border-color: var(--first-color) !important, color: var(--first-color) !important }
+
+.text-alert-primary{color:#004085 !important}
+.bcg-alert-primary{background-color:#004085 !important}
+.text-alert-primary2{color:#cce5ff}
+
+.bg-color1{background-color: var(--pink)}
+.bg-gradient-red{background-image: linear-gradient(to right, #fe816b 0, #ff2035 100%);}
+.bg-transparency-blue{background: rgba(2,119,189,0.3)}
+
+.jumbotron-custom{
+  height: 400px;
+  background-image: linear-gradient(to left, rgba(2,119,189,0.3) 40%, rgba(3,161,255,0.8)), url('img/photo-1485575301924-6891ef935dcd.jpeg') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  margin-bottom:0;
+}
+.homeblock1{
+  background-image: linear-gradient(to left, rgba(2,119,189,0.3) 0%, rgba(3,161,255,0.8)), url('img/matthew-henry-300.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homeblock2{
+  background-image: linear-gradient(to left, rgba(2,119,189,0.3) 0%, rgba(3,161,255,0.8)), url('img/90768.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.homeblock3{
+  background-image: linear-gradient(to left, rgba(2,119,189,0.3) 0%, rgba(3,161,255,0.8)), url('img/photo-1449586919022-f3dfddc48a71.jpeg');
+  background-position: center;
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+.homeblock4{
+  background-image: linear-gradient(to left, rgba(2,119,189,0.3) 0%, rgba(3,161,255,0.8)), url('img/patrick-schopflin-40311.jpg');
+  background-position: center;
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+.homeblock5{
+  background-image: linear-gradient(to left, rgba(2,119,189,0.3) 0%, rgba(3,161,255,0.8)), url('img/380898.jpg');
+  background-position: center;
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+.bg-apropos{
+  background-image: linear-gradient(to right, #0168BA99 0%, #0168BA99 100%), url('img/111218.jpg');
+  background-position: center;
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+.bg-demenagement1{
+  background-image:
+  linear-gradient(
+      to right,
+      #ffffff 30%,
+      #0168BA00 150%
+    ),url('img/jason-briscoe-332508.jpg');
+  background-position: center;
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .bg-demenagement1{
+    background-image:
+    linear-gradient(
+        to right,
+        #ffffff 70%,
+        #0168BA00 150%
+      ),url('img/jason-briscoe-332508.jpg');
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .bg-demenagement1{
+    background-image:
+    linear-gradient(
+        to right,
+        #ffffff 60%,
+        #0168BA00 190%
+      ),url('img/jason-briscoe-332508.jpg');
+    }
+}
+.bg-demenagement2{
+  background-image:
+  linear-gradient(
+      to right,
+      #ffffff 30%,
+      #0168BA00 150%
+    ),url('img/max-bender-262783.jpg');
+  background-position: center;
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .bg-demenagement2{
+    background-image:
+    linear-gradient(
+        to right,
+        #ffffff 70%,
+        #0168BA00 150%
+      ),url('img/max-bender-262783.jpg');
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .bg-demenagement2{
+    background-image:
+    linear-gradient(
+        to right,
+        #ffffff 60%,
+        #0168BA00 190%
+      ),url('img/max-bender-262783.jpg');
+    }
+}
+.bg-demenagement3{
+  background-image:
+  linear-gradient(
+      to right,
+      #ffffff 30%,
+      #0168BA00 150%
+    ),url('img/jordan-sanchez-111052.jpg');
+  background-position: center;
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .bg-demenagement3{
+    background-image:
+    linear-gradient(
+        to right,
+        #ffffff 70%,
+        #0168BA00 190%
+      ),url('img/jordan-sanchez-111052.jpg');
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .bg-demenagement3{
+    background-image:
+    linear-gradient(
+        to right,
+        #ffffff 60%,
+        #0168BA00 190%
+      ),url('img/jordan-sanchez-111052.jpg');
+    }
+}
