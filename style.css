@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, i{color: var(--first-color) !important}
 .bg-transparency-blue{background: rgba(2,119,189,0.3)}
 
 .jumbotron-custom{
-  height: 600px;
+  height: 90vh;
   background-image: linear-gradient(to left, rgba(2,119,189,0.3) 40%, rgba(3,161,255,0.8)), url('img/photo-1485575301924-6891ef935dcd.jpeg') !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
